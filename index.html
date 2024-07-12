@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="text2">Hey Trice, Click on the heart <br></div>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Trice.</strong>
+                        <p>
+                            Hey Trice💍
+
+                             just wanted to take a moment to let you know how much you mean to me.💕😍
+                             Your smile brightens my darkest days, 💕❤and your laughter fills my heart with warmth. 
+                             <br>Love - Vickie
+                             
+                             
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
